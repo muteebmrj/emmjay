@@ -7943,7 +7943,7 @@ button.bg-dark:focus {
 
 .text-center {
   text-align: center !important;
-  margin-top: 50px; }
+  margin-bottom: 50px; }
 
 @media (min-width: 576px) {
   .text-sm-left {
