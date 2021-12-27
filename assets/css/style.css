@@ -160,13 +160,15 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .readmore {
   display: inline-block;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   padding: 10px 15px;
-  font-size: 12px;
+  background: #373737;
+  font-size: 14px;
   text-transform: uppercase;
-  color: #000;
+  color: #fff;
   transition: 0.2s all ease;
   font-weight: 700;
+  letter-spacing: 0.5px;
 }
 .readmore:active, .readmore:focus, .readmore:hover {
   outline: none;
@@ -174,7 +176,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .readmore:hover {
   color: #fff;
   text-decoration: none;
-  background: #000;
+  background: #C30601;
 }
 
 .testimonials-slider .swiper-pagination {
