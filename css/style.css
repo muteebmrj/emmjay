@@ -1188,8 +1188,11 @@ footer .credits a {
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
+  } 
+    .intro .intro-title {
+      font-size: 20px;
+    }
   }
-}
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
@@ -1223,7 +1226,7 @@ footer .credits a {
   }
 
   .intro .intro-title {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .intro .intro-subtitle {
