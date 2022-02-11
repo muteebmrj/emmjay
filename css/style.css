@@ -442,15 +442,9 @@ a:hover {
   transition: all 500ms ease;
 }
 
-.navbar-b.navbar-trans .nav-link:hover,
-.navbar-b.navbar-reduce .nav-link:hover {
-  color: #1B1B1B;
-}
 
-.navbar-b.navbar-trans .nav-link:hover:before,
-.navbar-b.navbar-reduce .nav-link:hover:before {
-  width: 35px;
-}
+
+
 
 
 
@@ -1189,8 +1183,8 @@ footer .credits a {
   .counter-box {
     margin-bottom: 1.8rem;
   } 
-    .intro .intro-title {
-      font-size: 20px;
+  .intro .intro-title {
+      font-size: 40px;
     }
   }
 
@@ -1273,4 +1267,7 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
-}
+    .intro .intro-title {
+      font-size: 40px;
+    }  
+  }
