@@ -9,9 +9,12 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
+
 body {
-  background-color: #f5f5f5;
+  background-color: #EFE7E2;
   color: #4e4e4e;
+  font-family: 'associate_sansextralight';
+  
 }
 
 h1,
@@ -403,8 +406,9 @@ a:hover {
 .navbar-b {
   transition: all .5s ease-in-out;
   background-color: transparent;
-  padding-top: 1.563rem;
+  padding-top: 4.963rem;
   padding-bottom: 1.563rem;
+  padding-left: 25px;
 }
 
 .navbar-b.navbar-reduce {
@@ -413,16 +417,17 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-item,
 .navbar-b.navbar-reduce .nav-item {
-  position: relative;
+  position: relati5ve;
   padding-right: 10px;
   padding-left: 0;
 }
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
+  color: #918B8B;
+  text-transform: lowercase;
+  font-family: "juana_alt_extralightregular";
+  font-size: 25px;
 }
 
 .navbar-b.navbar-trans .nav-link:before,
@@ -447,56 +452,47 @@ a:hover {
   width: 35px;
 }
 
-.navbar-b.navbar-trans .show > .nav-link:before,
-.navbar-b.navbar-trans .active > .nav-link:before,
-.navbar-b.navbar-trans .nav-link.show:before,
-.navbar-b.navbar-trans .nav-link.active:before,
-.navbar-b.navbar-reduce .show > .nav-link:before,
-.navbar-b.navbar-reduce .active > .nav-link:before,
-.navbar-b.navbar-reduce .nav-link.show:before,
-.navbar-b.navbar-reduce .nav-link.active:before {
-  width: 35px;
-}
+
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #222;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color: #222;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
+  color: #222;
 }
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  background-color: #EFE7E2;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #9E1E35;
+  color: #918B8B;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #9E1E35;
+  background-color: #918B8B;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #9E1E35;
+  color: #222;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #9E1E35;
+  color: #222;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
@@ -600,14 +596,23 @@ a:hover {
 //--//-->   INTRO
 ======================================*/
 
+#hello_text{
+  font-family: 'associate_sanslight';
+  text-align: left;
+  color: #C6B9B1;
+  font-size: 20px;
+  margin-left: 3px;
+  letter-spacing: 1px;
+}
+
 .intro {
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: #222;
 }
 
 .intro .intro-content {
-  text-align: center;
+  text-align: left;
   position: absolute;
 }
 
@@ -623,9 +628,10 @@ a:hover {
 }
 
 .intro .intro-title {
-  color: #fff;
-  font-weight: 600;
-  font-size: 3rem;
+  color: #222;
+  font-family: "juana_alt_thinregular", serif;
+  text-align: left;
+
 }
 
 .intro .intro-subtitle {
@@ -674,6 +680,8 @@ a:hover {
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background-color: #EFE7E2;
+  font-family: 'associate_sansextralight';
 }
 
 .about-mf .about-img {
@@ -689,15 +697,15 @@ a:hover {
 }
 
 .skill-mf .progress {
-  background-color: #D1D1D1;
+  background-color: #878787;
   margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
+  border-radius: 10;
   height: .7rem;
 }
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #9E1E35;
+  background-color: #fff;
 }
 
 /*======================================
@@ -1215,7 +1223,7 @@ footer .credits a {
   }
 
   .intro .intro-title {
-    font-size: 4.5rem;
+    font-size: 60px;
   }
 
   .intro .intro-subtitle {
