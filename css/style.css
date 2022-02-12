@@ -1378,3 +1378,23 @@ footer .credits a {
                   margin-top: 80px;
                 }
               }
+
+@media (min-width: 992px) {
+                .back-to-top {
+                  bottom: 15px;
+                }
+                  .intro .intro-title{
+                    font-size: 55px;
+                    margin-top: 25px;
+                    
+                  }  
+            
+                  .navbar-b{
+                    padding-top: 5px;
+                  }
+                  #intro_container{
+                    margin-top: 80px;
+                   
+  flex-wrap: wrap;
+                  }
+                }
