@@ -315,7 +315,7 @@ figcaption {
 }
 
 .nav-link.w--current {
-  background-color: #222;
+  background-color: #48a779;
   color: #fff;
 }
 
@@ -753,7 +753,7 @@ figcaption {
   background-position: 7% 50%;
   background-size: auto;
   background-repeat: no-repeat;
-  color: #222;
+  color: #49A779;
   letter-spacing: -0.02em;
 }
 
